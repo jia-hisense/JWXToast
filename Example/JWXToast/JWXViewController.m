@@ -7,6 +7,7 @@
 //
 
 #import "JWXViewController.h"
+#import <JWXToast/JWXToast.h>
 
 @interface JWXViewController ()
 
@@ -14,16 +15,14 @@
 
 @implementation JWXViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    [JWXToast.sharedInstance show:@"Hello"];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

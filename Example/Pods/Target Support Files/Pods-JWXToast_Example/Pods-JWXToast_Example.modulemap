@@ -1,0 +1,6 @@
+framework module Pods_JWXToast_Example {
+  umbrella header "Pods-JWXToast_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module JWXToast {
+  umbrella header "JWXToast-umbrella.h"
+
+  export *
+  module * { export * }
+}
